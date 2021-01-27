@@ -15,5 +15,5 @@ const Template: Story<React.ComponentProps<typeof App>> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  title: "ボタン"
+  title: "Title"
 };
