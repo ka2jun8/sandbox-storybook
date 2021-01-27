@@ -16,12 +16,12 @@ const Template: Story<React.ComponentProps<typeof App>> = (args) => (
 export const Default = Template.bind({});
 Default.args = {
   title: "Title",
-  descriptions: ["Hello", "Description"],
+  descriptions: ["Hello", "Description"]
 };
 
 export const NgPattern = Template.bind({});
 // expect type error
 NgPattern.args = {
-  title: "Title",
+  title: "Title"
   // descriptions: [],
 };
