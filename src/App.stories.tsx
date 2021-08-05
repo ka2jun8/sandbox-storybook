@@ -8,7 +8,7 @@ type Props = React.ComponentProps<typeof App>;
 const meta: Meta<Props> = {
   title: "App",
   args: {
-    descriptions: ["テスト"],
+    descriptions: ["Test"],
   },
   component: App,
 };
